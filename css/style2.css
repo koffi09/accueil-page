@@ -1,0 +1,167 @@
+
+
+/*   general  */
+*
+{
+
+margin:0px;	
+padding:0px;
+}
+
+body{
+background-color: #333;
+
+}
+
+
+a {
+
+    text-decoration:none;
+
+}
+
+.navbar-wrapper{
+
+
+margin:30px;
+
+
+
+}
+
+.nav>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .dropdown-menu>li>a, .dropdown-menu>li{
+  border-bottom: 3px solid transparent;
+}
+.nav>li>a:focus, .nav>li>a:hover,.nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+  border-bottom: 3px solid transparent;
+  background: none;
+}
+.navbar a, .dropdown-menu>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .navbar-toggle{
+ color: #BBACAC;
+}
+.dropdown-menu{
+      -webkit-box-shadow: none;
+    box-shadow:none;
+}
+
+.nav li:hover:nth-child(8n+1), .nav li.active:nth-child(8n+1){
+  border-bottom: #C4E17F 3px solid;
+}
+.nav li:hover:nth-child(8n+2), .nav li.active:nth-child(8n+2){
+  border-bottom: #F7FDCA 3px solid;
+}
+.nav li:hover:nth-child(8n+3), .nav li.active:nth-child(8n+3){
+  border-bottom: #FECF71 3px solid;
+}
+.nav li:hover:nth-child(8n+4), .nav li.active:nth-child(8n+4){
+  border-bottom: #F0776C 3px solid;
+}
+.nav li:hover:nth-child(8n+5), .nav li.active:nth-child(8n+5){
+  border-bottom: #DB9DBE 3px solid;
+}
+.nav li:hover:nth-child(8n+6), .nav li.active:nth-child(8n+6){
+  border-bottom: #C49CDE 3px solid;
+}
+.nav li:hover:nth-child(8n+7), .nav li.active:nth-child(8n+7){
+  border-bottom: #669AE1 3px solid;
+}
+.nav li:hover:nth-child(8n+8), .nav li.active:nth-child(8n+8){
+  border-bottom: #62C2E4 3px solid;
+}
+
+.navbar-toggle .icon-bar{
+    color: #fff;
+    background: blue;
+}
+
+
+
+/*    CSS   pour le contenu */
+
+#livre
+{
+
+position:relative;	
+	
+
+bottom:90px;	
+	
+}
+
+
+#repe
+{
+position:relative;
+bottom:400px;
+left:50px;
+}	
+ 
+ article
+ {
+	 
+   position:relative;
+ text-align:center;   
+	 
+ }
+  # id-lien
+  {
+	  
+	position:relative;
+    width:250px;
+  height:25px;	
+	  
+	    
+  }
+
+/* validation coté client*/
+ #courses_box1 span{
+  display:none;
+ 
+ }
+	 
+   #courses_box1 input:focus:invalid{
+      border-color:red;
+     -moz-box-shadow:0px 0px 7px #d45252; 
+     -webkit-box-shadow:0px 0px 7px #d45252 ;
+    }
+
+
+#courses_box1 input:focus:invalid+span{
+      display:block;
+      color:red;
+      text-align:center;
+       
+    }
+
+
+
+#courses_box1  input:focus:valid{
+    border-color:green;
+ 
+}
+
+  
+
+
+  #courses_box1{
+
+   position:relative; 
+  top:10px;
+}
+
+  .form-container{
+  
+    background-color:white;
+  padding:20px;
+    border-radius:10px;
+    margin:0px;
+    }
+
+
+
+
+
+
+
+
+
